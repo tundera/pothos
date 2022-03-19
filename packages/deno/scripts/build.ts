@@ -5,7 +5,7 @@ import * as ts from 'typescript';
 
 const packageDir = path.resolve(__dirname, '../../');
 const targetDir = path.resolve(__dirname, '../packages');
-const excludedPackages = ['converter', 'deno', 'plugin-example', 'plugin-prisma', 'test-utils', 'plugin-federation'];
+const excludedPackages = ['converter', 'deno', 'plugin-example', 'plugin-prisma', 'plugin-prisma-crud', 'test-utils', 'plugin-federation'];
 const excludedDirs = ['esm', 'lib', 'test', 'tests', 'node_modules'];
 const excludedFiles = ['package.json', 'tsconfig.json', 'tsconfig.tsbuildinfo', 'CHANGELOG.md', '.npmignore', 'babel.config.js'];
 
